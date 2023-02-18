@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Global HTTP Proxy</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.proxy.http.global.F0A95878-A788-4CD4-AC31-42EDDB342D63</string>
+			<key>PayloadType</key>
+			<string>com.apple.proxy.http.global</string>
+			<key>PayloadUUID</key>
+			<string>6A751A5C-01A4-42D9-9230-D4100D2E0FBD</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProxyCaptiveLoginAllowed</key>
+			<true/>
+			<key>ProxyPACURL</key>
+			<string>https://raw.githubusercontent.com/frahnklin/adblock/main/filter.pac</string>
+			<key>ProxyType</key>
+			<string>Auto</string>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Minimal content blocker for iOS devices. Brings in a PAC file from my Github repo (https://github.com/frahnklin/adblock) to control on-device traffic.</string>
+	<key>PayloadDisplayName</key>
+	<string>Franklin's Content Blocker</string>
+	<key>PayloadIdentifier</key>
+	<string>dev.frahnklin.contentblocker.ios</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>D7F86170-9439-47AB-9F50-F57B3A9E578C</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
