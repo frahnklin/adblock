@@ -25,9 +25,9 @@ function FindProxyForURL(url,host){
       shExpMatch(url,"*inmobi.com*") ||
       shExpMatch(url,"*crashlytics.com*") ||
       shExpMatch(url,"*amazon-adsystem*") ||
-      shExpMatch(url, "*online-metrix*) ||
-      shExpMatch(url, "*onlinemetrix*) ||
-      shExpMatch(url, "*2leep*) ||
+      shExpMatch(url,"*online-metrix*") ||
+      shExpMatch(url,"*onlinemetrix*") ||
+      shExpMatch(url,"*2leep*") ||
       shExpMatch(url,"*outbrain*") ||
       shExpMatch(url,"*demdex*") ||
       shExpMatch(url,"*ads.microsoft*") ||
