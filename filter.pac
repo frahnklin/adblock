@@ -2,20 +2,23 @@ function FindProxyForURL(url,host){
 // Tracking/ad URLs
    if(shExpMatch(url,"*adsafeprotected*") ||
       shExpMatch(url,"*app-analytics*") ||
-      shExpMatch(url,"*app-measurement.com*") ||
+      shExpMatch(url,"*app-measurement*") ||
       shExpMatch(url,"*googlead*") ||
+      shExpMatch(url,"*adservice*") ||
       shExpMatch(url,"*googlesyndication*") ||
       shExpMatch(url,"*applovin.com*") ||
       shExpMatch(url,"*googletagmanager*") ||
       shExpMatch(url,"*pubads*") ||
       shExpMatch(url,"*adclick*") ||
       shExpMatch(url,"*doubleclick*") ||
+      shExpMatch(url,"*scorecardresearch*") ||
       shExpMatch(url,"*graph.facebook*") ||
       shExpMatch(url,"*graph.instagram*") ||
       shExpMatch(url,"*connect.facebook*") ||
       shExpMatch(url,"*connect.instagram*") ||
       shExpMatch(url,"*app.adjust*") ||
-      shExpMatch(url,"*firebaselogging*") ||
+      shExpMatch(url,"*firebase*") ||
+      shExpMatch(url,"*crashlytics*") ||
       shExpMatch(url,"*sentry.io*") ||
       shExpMatch(url,"*unity3d.com*") ||
       shExpMatch(url,"*amplitude.com*") ||
