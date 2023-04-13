@@ -33,6 +33,12 @@ function FindProxyForURL(url,host){
       shExpMatch(url,"*2leep*") ||
       shExpMatch(url,"*outbrain*") ||
       shExpMatch(url,"*demdex*") ||
+      shExpMatch(url,"*moloco*") ||
+      shExpMatch(url,"*ironsource*") ||
+      shExpMatch(url,"*inmobi*") ||
+      shExpMatch(url,"*inhousedsp*") ||
+      shExpMatch(url, "*static-content*.smadex*") ||
+      shExpMatch(url,"*realauroradesign*") ||
       shExpMatch(url,"*ads.microsoft*") ||
       shExpMatch(url,"*microsoftanalytics*") ||
       shExpMatch(url,"*data.microsoft*") ||
