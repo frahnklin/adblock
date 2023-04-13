@@ -37,7 +37,7 @@ function FindProxyForURL(url,host){
       shExpMatch(url,"*ironsource*") ||
       shExpMatch(url,"*inmobi*") ||
       shExpMatch(url,"*inhousedsp*") ||
-      shExpMatxh(url,"*liftoff*.io*") ||
+      shExpMatch(url,"*liftoff*.io*") ||
       shExpMatch(url,"*tpbid*") ||
       shExpMatch(url,"*static-content*.smadex*") ||
       shExpMatch(url,"*personality.bid*") ||
