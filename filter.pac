@@ -50,7 +50,6 @@ function FindProxyForURL(url,host){
       shExpMatch(url,"*iadcontent*") ||
       shExpMatch(url,"*comscoreresearch*") ||
       shExpMatch(url,"*analytics-events*apple*") ||
-      shExpMatch(url,"*api.bestbrokers.de/affiliate") ||
 // Tracking/ad URL parameters
       shExpMatch(url,"*log_event/bz?*__comet_req=") ||
       shExpMatch(url,"*facebook.com/tr?*") ||
