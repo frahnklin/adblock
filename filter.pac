@@ -50,6 +50,26 @@ function FindProxyForURL(url,host){
       shExpMatch(url,"*iadcontent*") ||
       shExpMatch(url,"*comscoreresearch*") ||
       shExpMatch(url,"*analytics-events*apple*") ||
+      shExpMatch(url,"*beacon.shazam*") ||
+      shExpMatch(url,"*mask*.icloud*") ||
+      shExpMatch(url,"*metrics*icloud*") ||
+      shExpMatch(url,"*api.mixpanel*") ||
+      shExpMatch(url,"*datadoghq*") ||
+      shExpMatch(url,"*app-analytics-services*") ||
+      shExpMatch(url,"*tr.snapchat*") ||
+      shExpMatch(url,"*pubmatic*") ||
+      shExpMatch(url,"*casalemedia*") ||
+      shExpMatch(url,"*openx*") ||
+      shExpMatch(url,"*3lift*") ||
+      shExpMatch(url,"*et.nytimes*") ||
+      shExpMatch(url,"*als-svc.nytimes*") ||
+      shExpMatch(url,"*fastlane.rubiconproject*") ||
+      shExpMatch(url,"*adnxs*") ||
+      shExpMatch(url,"*media.net*") ||
+      shExpMatch(url,"*geoedge.be*") ||
+      shExpMatch(url,"*config.emb-api*") ||
+      shExpMatch(url,"*launches.appsflyersdk*") ||
+      shExpMatch(url,"*cdn.branch*") ||
 // Tracking/ad URL parameters
       shExpMatch(url,"*log_event/bz?*__comet_req=") ||
       shExpMatch(url,"*facebook.com/tr?*") ||
