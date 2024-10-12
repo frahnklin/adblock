@@ -17,7 +17,6 @@ function FindProxyForURL(url,host){
       shExpMatch(url,"*connect.facebook*") ||
       shExpMatch(url,"*connect.instagram*") ||
       shExpMatch(url,"*app.adjust*") ||
-      shExpMatch(url,"*firebase*") ||
       shExpMatch(url,"*crashlytics*") ||
       shExpMatch(url,"*sentry.io*") ||
       shExpMatch(url,"*unity3d.com*") ||
