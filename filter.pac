@@ -50,7 +50,6 @@ function FindProxyForURL(url,host){
       shExpMatch(url,"*comscoreresearch*") ||
       shExpMatch(url,"*analytics-events*apple*") ||
       shExpMatch(url,"*beacon.shazam*") ||
-      shExpMatch(url,"*mask*.icloud*") ||
       shExpMatch(url,"*metrics*icloud*") ||
       shExpMatch(url,"*api.mixpanel*") ||
       shExpMatch(url,"*datadoghq*") ||
