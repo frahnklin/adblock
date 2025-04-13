@@ -52,7 +52,7 @@ function FindProxyForURL(url,host){
       shExpMatch(url,"*beacon.shazam*") ||
       shExpMatch(url,"*metrics*icloud*") ||
       shExpMatch(url,"*api.mixpanel*") ||
-      shExpMatch(url,"*datadoghq*") ||
+      // shExpMatch(url,"*datadoghq*") ||
       shExpMatch(url,"*app-analytics-services*") ||
       shExpMatch(url,"*tr.snapchat*") ||
       shExpMatch(url,"*pubmatic*") ||
