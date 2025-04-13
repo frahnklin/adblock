@@ -17,7 +17,7 @@ function FindProxyForURL(url,host){
       shExpMatch(url,"*connect.facebook*") ||
       shExpMatch(url,"*connect.instagram*") ||
       shExpMatch(url,"*app.adjust*") ||
-      shExpMatch(url,"*crashlytics*") ||
+      // shExpMatch(url,"*crashlytics*") ||
       shExpMatch(url,"*sentry.io*") ||
       shExpMatch(url,"*unity3d.com*") ||
       shExpMatch(url,"*amplitude.com*") ||
@@ -25,14 +25,14 @@ function FindProxyForURL(url,host){
       shExpMatch(url,"*vungle.com*") ||
       shExpMatch(url,"*chartboost.com*") ||
       shExpMatch(url,"*inmobi.com*") ||
-      shExpMatch(url,"*crashlytics.com*") ||
+      // shExpMatch(url,"*crashlytics.com*") ||
       shExpMatch(url,"*taboola*") ||
       shExpMatch(url,"*amazon-adsystem*") ||
       shExpMatch(url,"*online-metrix*") ||
       shExpMatch(url,"*onlinemetrix*") ||
       shExpMatch(url,"*2leep*") ||
       shExpMatch(url,"*outbrain*") ||
-      shExpMatch(url,"*demdex*") ||
+      // shExpMatch(url,"*demdex*") ||
       shExpMatch(url,"*moloco*") ||
       shExpMatch(url,"*ironsource*") ||
       shExpMatch(url,"*inmobi*") ||
@@ -52,7 +52,7 @@ function FindProxyForURL(url,host){
       shExpMatch(url,"*beacon.shazam*") ||
       shExpMatch(url,"*metrics*icloud*") ||
       shExpMatch(url,"*api.mixpanel*") ||
-      // shExpMatch(url,"*datadoghq*") ||
+      shExpMatch(url,"*datadoghq*") ||
       shExpMatch(url,"*app-analytics-services*") ||
       shExpMatch(url,"*tr.snapchat*") ||
       shExpMatch(url,"*pubmatic*") ||
