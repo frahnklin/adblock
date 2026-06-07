@@ -78,6 +78,9 @@ function FindProxyForURL(url,host){
       shExpMatch(url,"*google.com/pagead*") ||
       shExpMatch(url,"*youtube.com/youtubei/*/log_event*") ||
       shExpMatch(url,"*retargeting-pixels*") ||
-      shExpMatch(url,"*comscore_pageview*"))    return "PROXY 127.0.0.1:8021";
+      shExpMatch(url,"*comscore_pageview*") ||
+// Block various websites
+      shExpMatch(url,"*youtube*.*com*") ||
+      shExpMatch(url,"*reddit*.*com*")) return "PROXY 127.0.0.1:8021";
    return "DIRECT";
 }
